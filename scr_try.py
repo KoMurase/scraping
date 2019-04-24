@@ -27,7 +27,7 @@ for tr in rows:
     for td in cols:
         info=td.find(text=True)
         if info==None:
-            info='理由なし <br/>'
+            info='記載なし <br/>'
         else:
             info=info+'<br/>'
         print(info)
